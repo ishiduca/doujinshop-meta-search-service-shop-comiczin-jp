@@ -1,0 +1,24 @@
+{
+  "name": "doujinshop-meta-search-service-shop-comiczin-jp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "doujinshop-meta-search-service": "git+https://github.com/ishiduca/doujinshop-meta-search-service.git"
+  },
+  "devDependencies": {
+    "tap-spec": "^4.1.1",
+    "tape": "^4.7.0"
+  },
+  "scripts": {
+    "test": "tape t/*.js | tap-spec"
+  },
+  "standard": {
+    "ignore": "t/"
+  },
+  "bin": {
+    "meta-comiczin": "./bin/metasearch"
+  },
+  "author": "ishiduca@gmail.com",
+  "license": "MIT"
+}
