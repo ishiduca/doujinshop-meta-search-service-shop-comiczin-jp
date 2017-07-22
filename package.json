@@ -17,7 +17,7 @@
     "ignore": "t/"
   },
   "bin": {
-    "meta-comiczin": "./bin/metasearch"
+    "meta-comiczin": "./bin/metasearch.js"
   },
   "author": "ishiduca@gmail.com",
   "license": "MIT"
